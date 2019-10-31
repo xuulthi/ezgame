@@ -1,3 +1,5 @@
+"""Cows and Bulls game"""
+
 import random as r
 
 r.seed();
