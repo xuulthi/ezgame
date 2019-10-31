@@ -8,7 +8,7 @@ bulls=0;
 number = str(r.randint(1000,9999));
 
 while True:
-    guess=input("Poznai")
+    guess=input("Guess")
     for cifra in guess:
         if cifra is number:
             if number.index(cifra) == guess.index(cifra):
