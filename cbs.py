@@ -3,8 +3,8 @@
 import random as r
 
 r.seed();
-cows=0;
-bulls=0;
+cows=0
+bulls=0
 number = str(r.randint(1000,9999));
 
 while True:
@@ -18,5 +18,5 @@ while True:
         if bulls==4:
             print("You win.GG")
             break
-        bulls=0;
-        cows=0;
+        bulls=0
+        cows=0
